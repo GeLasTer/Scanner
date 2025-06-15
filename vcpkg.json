@@ -1,0 +1,9 @@
+{
+  "name": "scannerqr",
+  "version": "0.1.0",
+  "dependencies": [
+    "opencv",
+    "nu-book-zxing-cpp",
+    "nlohmann-json"
+  ]
+}

@@ -1,16 +1,136 @@
-"C:\Program Files\JetBrains\CLion 2024.3.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\002\projet\Git\Scanner -B C:\002\projet\Git\Scanner\cmake-build-debug
--- The C compiler identification is MSVC 19.44.35209.0
+"C:\Program Files\JetBrains\CLion 2024.3.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.1/bin/ninja/win/x64/ninja.exe" -DCMAKE_TOOLCHAIN_FILE=C:/002/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake -G Ninja -S C:\002\projet\Git\Scanner -B C:\002\projet\Git\Scanner\cmake-build-debug
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * abseil:x64-windows@20250127.1#1
+  * flatbuffers:x64-windows@25.2.10
+  * libjpeg-turbo:x64-windows@3.1.0#1
+  * liblzma:x64-windows@5.8.1
+  * libpng:x64-windows@1.6.47
+  * libwebp[core,libwebpmux,nearlossless,simd,unicode]:x64-windows@1.5.0#1
+    nlohmann-json:x64-windows@3.12.0
+    nu-book-zxing-cpp:x64-windows@2.3.0
+    opencv:x64-windows@4.11.0
+  * opencv4[calib3d,core,directml,dnn,dshow,fs,gapi,highgui,intrinsics,jpeg,msmf,png,quirc,thread,tiff,webp,win32ui]:x64-windows@4.11.0#1
+  * protobuf:x64-windows@5.29.3#1
+  * quirc:x64-windows@1.2
+  * tiff[core,jpeg,lzma,zip]:x64-windows@4.7.0
+  * utf8-range:x64-windows@5.29.3
+  * vcpkg-cmake:x64-windows@2024-04-23
+  * vcpkg-cmake-config:x64-windows@2024-05-23
+  * vcpkg-get-python-packages:x64-windows@2025-04-05
+  * zlib:x64-windows@1.3.1
+Additional packages (*) will be modified to complete this operation.
+Restored 18 package(s) from C:\Users\a\AppData\Local\vcpkg\archives in 5.7 s. Use --debug to see more details.
+Installing 1/18 vcpkg-cmake-config:x64-windows@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 6.53 ms
+vcpkg-cmake-config:x64-windows package ABI: 710529b4417113ffa99860ce5cb9ca6c6ce750264372f6702bfc9a13201fd5df
+Installing 2/18 vcpkg-cmake:x64-windows@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-windows: 22.5 ms
+vcpkg-cmake:x64-windows package ABI: 004bc04aa5d05e7c9915185c23ea83212adca8672a8ee7b6a671b7b51d49e9e8
+Installing 3/18 nlohmann-json:x64-windows@3.12.0...
+Elapsed time to handle nlohmann-json:x64-windows: 23.6 ms
+nlohmann-json:x64-windows package ABI: d9c8c5b51e1de1c03c11a929b126cabb7220019c0bb017880edbaff13c0b13a8
+Installing 4/18 nu-book-zxing-cpp:x64-windows@2.3.0...
+Elapsed time to handle nu-book-zxing-cpp:x64-windows: 13.3 ms
+nu-book-zxing-cpp:x64-windows package ABI: ca19a5aa26b58fe09a2513472ce11123a490b25d620443461d3b6a3c43228e3a
+Installing 5/18 libwebp[core,libwebpmux,nearlossless,simd,unicode]:x64-windows@1.5.0#1...
+Elapsed time to handle libwebp:x64-windows: 26.7 ms
+libwebp:x64-windows package ABI: 2b5aef802d919db71ec018a2cf2a750601ba08e5b20393283cc6f6c0fdd2ef54
+Installing 6/18 zlib:x64-windows@1.3.1...
+Elapsed time to handle zlib:x64-windows: 8.64 ms
+zlib:x64-windows package ABI: 5b6a6e263aae1b24f7c0cafddb06f8381547c11e443807c6603ac15a4bf7c801
+Installing 7/18 liblzma:x64-windows@5.8.1...
+Elapsed time to handle liblzma:x64-windows: 28.4 ms
+liblzma:x64-windows package ABI: 0f6d6da8cbf5f2bc2f28aa81469b16b495d9a00b51e420dca1347101e2e67230
+Installing 8/18 libjpeg-turbo:x64-windows@3.1.0#1...
+Elapsed time to handle libjpeg-turbo:x64-windows: 12.6 ms
+libjpeg-turbo:x64-windows package ABI: 9695e213481f91d6997e875d751b8f8ccf2ac8a53dd13f1a304fc9bc070ce57f
+Installing 9/18 tiff[core,jpeg,lzma,zip]:x64-windows@4.7.0...
+Elapsed time to handle tiff:x64-windows: 16.1 ms
+tiff:x64-windows package ABI: 673c08cb0e540e75b492b37df9ead684be236a8da1cbef86dab29e47ad7a89c9
+Installing 10/18 quirc:x64-windows@1.2...
+Elapsed time to handle quirc:x64-windows: 26.1 ms
+quirc:x64-windows package ABI: 7492d62beead66f8b7390fb3b7b03ec24cf85b50e1281f86fc2755ac75fd0db4
+Installing 11/18 libpng:x64-windows@1.6.47...
+Elapsed time to handle libpng:x64-windows: 12.7 ms
+libpng:x64-windows package ABI: d59cdeac1bd3a90cd8922722297da17e8209d0735694a43b9e1e26f5e24b8101
+Installing 12/18 abseil:x64-windows@20250127.1#1...
+Elapsed time to handle abseil:x64-windows: 331 ms
+abseil:x64-windows package ABI: 7ae8c09930636e48267a860d35a599cb6d336a378d81e399e0cb3c4d3dfc2394
+Installing 13/18 utf8-range:x64-windows@5.29.3...
+Elapsed time to handle utf8-range:x64-windows: 37.7 ms
+utf8-range:x64-windows package ABI: 95a7f54a2ce4526ca26cf22c055cdb1a7f2f1dd9500e9edc48d1e4b490b087cd
+Installing 14/18 protobuf:x64-windows@5.29.3#1...
+Elapsed time to handle protobuf:x64-windows: 102 ms
+protobuf:x64-windows package ABI: 5eaa7bff350b1ccbb926418e6c66c0eac591e2d89a3e2c3713133e004b66764d
+Installing 15/18 flatbuffers:x64-windows@25.2.10...
+Elapsed time to handle flatbuffers:x64-windows: 44.4 ms
+flatbuffers:x64-windows package ABI: 71db3e85c4cbe2dcd1f23aaa4cddea5ede70995d83513ede1381a49381c0a497
+Installing 16/18 vcpkg-get-python-packages:x64-windows@2025-04-05...
+Elapsed time to handle vcpkg-get-python-packages:x64-windows: 14.5 ms
+vcpkg-get-python-packages:x64-windows package ABI: 8e632d5489112c6adc049cac87110e351084f654b2ef268fb94f6d96d1d1b196
+Installing 17/18 opencv4[calib3d,core,directml,dnn,dshow,fs,gapi,highgui,intrinsics,jpeg,msmf,png,quirc,thread,tiff,webp,win32ui]:x64-windows@4.11.0#1...
+Elapsed time to handle opencv4:x64-windows: 162 ms
+opencv4:x64-windows package ABI: 1a7bb60c8baac1123e5f34e82d7ef3e7392a486f7a8ca9fdab694606cea82e63
+Installing 18/18 opencv:x64-windows@4.11.0...
+Elapsed time to handle opencv:x64-windows: 6.28 ms
+opencv:x64-windows package ABI: 6f6daa3fa3bd957115f078c81e47a6698e5e7b1212e1e269f04c941a8338a597
+The package nlohmann-json provides CMake targets:
+
+    find_package(nlohmann_json CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
+
+The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
+
+    set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
+
+For more information, see the docs here:
+    
+    https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
+
+nu-book-zxing-cpp provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(ZXing CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE ZXing::Core ZXing::ZXing)
+
+All requested installations completed successfully in: 916 ms
+-- Running vcpkg install - done
 -- The CXX compiler identification is MSVC 19.44.35209.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
 -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (3.3s)
--- Generating done (0.1s)
--- Build files have been written to: C:/002/projet/Git/Scanner/cmake-build-debug
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Found Protobuf: C:/002/projet/Git/Scanner/cmake-build-debug/vcpkg_installed/x64-windows/tools/protobuf/protoc.exe (found version "29.3.0")
+-- Found TIFF: optimized;C:/002/projet/Git/Scanner/cmake-build-debug/vcpkg_installed/x64-windows/lib/tiff.lib;debug;C:/002/projet/Git/Scanner/cmake-build-debug/vcpkg_installed/x64-windows/debug/lib/tiffd.lib (found version "4.7.0")
+-- Found OpenCV: C:/002/projet/Git/Scanner/cmake-build-debug/vcpkg_installed/x64-windows (found version "4.11.0")
+-- Configuring done (12.2s)
+CMake Error at C:/002/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:598 (_add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  CMakeLists.txt:32 (add_executable)
+
+
+CMake Error at C:/002/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:598 (_add_executable):
+  No SOURCES given to target: ScannerQR
+Call Stack (most recent call first):
+  CMakeLists.txt:32 (add_executable)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

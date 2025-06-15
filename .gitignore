@@ -1,0 +1,15 @@
+cmake-build-debug/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+*.exe
+*.dll
+*.lib
+
+.idea/
+.vscode/
+
+vcpkg/
+vcpkg_installed/
