@@ -18,7 +18,7 @@ To build and run this project, make sure the following tools and libraries are i
 ___
 ## ⚙️ Installation Guide
 
-### 1. Install Git
+# 1. Install Git
 First, install **Git** from [git-scm.com](https://git-scm.com/), then add the `bin` folder path to your **Windows Environment Variables** so Git commands can be recognized in the terminal.
 
 Clone the project using the command below:
@@ -26,17 +26,17 @@ Clone the project using the command below:
 ```bash
 git clone https://github.com/GeLasTer/Scanner.git
 ```
-2. Install Microsoft Build Tools
+#2. Install Microsoft Build Tools
 Download and install Microsoft Build Tools from the official Microsoft website.
 During installation, make sure to enable the C++ Development workload.
-3. Install vcpkg
+#3. Install vcpkg
 Clone vcpkg from GitHub:
 ```bash
 git clone https://github.com/Microsoft/vcpkg.git
 ```
 Build vcpkg using the instructions provided in its repository.
 
-4. Install required libraries
+#4. Install required libraries
 You can install dependencies in two different ways:
 
 🔸 Method 1 – Classic
@@ -50,7 +50,7 @@ vcpkg install nlohmann-json
 This project includes a vcpkg.json file for Manifest mode.
 Simply configure CMake to use vcpkg, and it will automatically install dependencies.
 
-5. Configure CMake
+#5. Configure CMake
 Make sure to tell CMake where your vcpkg is installed by setting the toolchain file path:
 ```bash
 -DCMAKE_TOOLCHAIN_FILE=[path_to_vcpkg]/scripts/buildsystems/vcpkg.cmake
@@ -78,8 +78,9 @@ ___
 └── .gitignore
 ```
 ___
+---
 ##✍️ Author
-. antique
+**. antique**
 
 
 
