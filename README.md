@@ -1,11 +1,9 @@
 ### QR Scanner App v1.0.0
 The program is written in C++ and utilizes several powerful libraries to access the system's webcam, process images, and decode QR codes. When a QR code is presented to the camera, the program scans it, displays the decoded content on the screen, and saves both the image and its data as an archive in a JSON file.
 
-___
-##⚡ Version History
+## ⚡ Version History
 - **v1.0.0** – Initial release with basic QR code scanning and archiving features.
 
-___
 ## 🔗 Dependencies
 To build and run this project, make sure the following tools and libraries are installed:
 
@@ -15,7 +13,7 @@ To build and run this project, make sure the following tools and libraries are i
   - `opencv`
   - `zxing-cpp`
   - `nlohmann-json`
-___
+
 ## ⚙️ Installation Guide
 
 # 1. Install Git
@@ -62,7 +60,6 @@ cmake --build build
 ```bash
 ./build/ScannerApp
 ```
-___
 ## 📁 Project Structure
 ```bash
 ├── Archive.h              # Data archiving
@@ -77,8 +74,6 @@ ___
 ├── README.md
 └── .gitignore
 ```
-___
----
 ## ✍️ Author
 **. antique**
 
